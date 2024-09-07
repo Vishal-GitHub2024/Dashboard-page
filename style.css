@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  appearance: none;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+  background-color: #f4f5fc;
+  color: darkviolet;
+}
+header{
+  background-color: white;
+  padding: 10px;
+  z-index: 50;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+header nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header nav .logo{
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+header nav .logo span{
+  font-size: 30px;
+}
+header nav .logo h1{
+  margin-left: 10px;
+}
+header nav .admin{
+  display: flex;
+  align-items: center;
+  padding: 2px;
+  margin-right: 20px;
+}
+header nav .admin .search{
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 5px;
+  border: 2px solid darkviolet;
+}
+header nav .admin .search input{
+  outline: none;
+  border: none;
+  padding: 8px;
+  border-radius: 8px;
+  font-size: 15px;
+}
+header nav .admin .search span{
+  color: black;
+}
+header nav .logo img{
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+.container{
+  background-color: #0e1dc2;
+}
+.container aside{
+  height: 670px;
+  width: 300px;
+  position: absolute;
+  bottom: 0;
+  background-color: #e2e4f9;
+
+}
+.container main{
+  height: 670px;
+  width: 1250px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: #e2e4f9;
+  padding: 30px;
+  padding-bottom: 0;
+  padding-right: 0;
+}
+.container aside .sidebar{
+  background-color: rgb(238, 240, 249);
+  height: 665px;
+}
+a{
+  color: darkviolet;
+  display: flex;
+  padding: 15px;
+  justify-content: start;
+  background-color: rgb(238, 240, 249);
+  font-weight: lighter;
+
+}
+a span{
+  margin-left: 20px;
+}
+h1{
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+h3{
+  margin-left: 10px;
+}
+aside .sidebar a:last-child{
+  position: absolute;
+  bottom: 0;
+  width: 270px;
+}
+aside .sidebar a:hover{
+  background-color: rgb(195, 74, 247);
+  color: white;
+}
+
+main .first{
+  height: 90px;
+  width: 95%;
+  background-color: rgb(186, 25, 255);
+  color: white;
+  border-radius: 5px;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+main .first .details{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main .first .details .box{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: transparent;
+  margin-left: 25px;
+}
+main .first .details .box h3{
+  font-size: 15px;
+  font-weight: 300;
+}
+main .first .details .box h1{
+  margin-left: 5px;
+}
+main .first button{
+  width: 120px;
+  height: 35px;
+  padding: 5px;
+  border-radius: 25px;
+  font-weight: 600;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.502);
+  outline: none;
+  border: 2px solid white;
+  margin-left: 10px;
+}
+main .cards{
+  height: 150px;
+  width: 95%;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px;
+}
+main .cards .card{
+  height: 110px;
+  width: 265px;
+  border-radius: 5px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+main .cards .card span{
+  font-size: 70px;
+  background-color: darkviolet;
+  color: white;
+  border-radius: 5px;
+  border: 1px solid darkviolet;
+}
+main .cards .card h1{
+  font-size: 30px;
+  color: rgb(173, 25, 236);
+}
+main .cards .card .money {
+  height: 70px;
+ 
+}
+main .cards .card .money h3{
+  font-size: small;
+  margin: 0;
+  color: rgb(195, 74, 247);
+}
+main .imgContainer{
+  height: 300px;
+  width: 95%;
+  background-color: rgb(186, 25, 255);
+  color: white;
+  border-radius: 5px;
+  margin: 20px;
+}
+
+
+.container main .imgContainer{
+  height: 90px;
+  width: 95%;
+  background-color: rgb(186, 25, 255);
+  color: white;
+  border-radius: 5px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.container main .imgContainer img{
+  height: 300px;
+  width: 100%;
+  border-radius: 10px;
+}
